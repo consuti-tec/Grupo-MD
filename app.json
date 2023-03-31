@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Estoril Esportes",
+    "slug": "estorilesportes",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FC6405"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#FC6405"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/ff112dc6-dc99-47e4-8579-d795bf9e68c8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FC6405",
+        "backgroundImage": "./assets/icon.png"
+      },
+      "package": "com.sporti.estorilesportes",
+      "permissions": []
+    },
+    "ios": {
+      "buildNumber": "3",
+      "bundleIdentifier": "com.sporti.estorilesportes",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "description": ""
+  }
+}

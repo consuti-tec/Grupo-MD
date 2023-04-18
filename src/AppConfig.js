@@ -1,6 +1,6 @@
 module.exports = {
-  ColorTheme: "#FC6405",
-  UrlPortal: "https://escoladoesporte.com.br/redesporti/unidades/estoril-esportes",
+  ColorTheme: "#002060",
+  UrlPortal: "https://escoladoesporte.com.br/redesporti/unidades/md-projetos-sociais",
   UrlPainel: "https://painel.escoladoesporte.com.br/",
   TimeSplashScreen: 3000,
 };
